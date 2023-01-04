@@ -6,17 +6,22 @@ import reportWebVitals from './reportWebVitals';
 import App2 from "./App2";
 import App3 from "./App3";
 import App4 from "./App4";
+import App4_1 from "./App4_1";
 import App5 from "./App5";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  //   StrictMode : 자바스크립트의 문법을 엄격하게 확인한다는 의미
+  //   React.StrictMode : 배포 버전에는 제외되고 개발버전에서만 동작하는 엄격모드, 몇가지 함수 중복실행하여 잘못된 것이 없는지 개발자에게 확인하도록 함
   <React.StrictMode>
     {/*    <App />*/}
     {/*    <App2 />*/}
     {/*    <App3 />*/}
     {/*  <App4 />*/}
+    {/*  <App4_1 />*/}
       <App5 />
   </React.StrictMode>
+    // <App5 />
 );
 
 // If you want to start measuring performance in your app, pass a function
