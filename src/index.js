@@ -15,7 +15,7 @@ root.render(
     {/*    <App2 />*/}
     {/*    <App3 />*/}
     {/*  <App4 />*/}
-      <App4 />
+      <App5 />
   </React.StrictMode>
 );
 

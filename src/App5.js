@@ -1,7 +1,6 @@
 import React from "react";
 import Navi2 from "./Template2/Navi2";
 import Food1 from "./Template2/Food1";
-import sandwitch from "./img/sandwitch.png";
 
 const styles = {
     main: {

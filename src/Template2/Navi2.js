@@ -2,7 +2,7 @@ import React from "react";
 
 function Navi2() {
     return(
-        <div className={"navbar fixed-top bg-white d-flex justify-content-around mt-2"}>
+        <div className={"navbar fixed-top bg-white d-flex justify-content-around"}>
             <button className={"navbar-toggler"} type={"button"} data-bs-toggle={"offcanvas"}data-bs-target={"#offcanvasNavbar"} aria-controls={"offcanvasNavbar"}>
                 <span className={"navbar-toggler-icon"} />
             </button>
