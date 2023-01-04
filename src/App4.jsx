@@ -14,8 +14,8 @@ const styles = {
     },
     imgText: {
         position: "absolute",
-        top: "92%",
-        left: "9%"
+        bottom: 10,
+        left: 170
     },
     mainImg: {
         width: 1600,
