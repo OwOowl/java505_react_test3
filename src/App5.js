@@ -4,6 +4,8 @@ import CountButton from "./Folder2/CountButton";
 import CountButton2 from "./Folder2/CountButton2";
 import Accommodate from "./Folder2/Accommodate";
 import Calculator from "./Folder2/Calculator";
+import Events from "./Folder2/Events";
+import ConfirmButton from "./Folder2/ConfirmButton";
 
 function App5() {
     return(
@@ -17,6 +19,8 @@ function App5() {
                 <Accommodate />
             </div>
             <Calculator />
+            <Events />
+            <ConfirmButton />
         </div>
     );
 }
